@@ -53,7 +53,7 @@ page-dashboard {
   .addressBook{
     width: 22px;
   }
-  .square{
+  .square-red{
     width: 7px;
     height: 7px;
     border-radius: 50%;
@@ -79,5 +79,75 @@ page-dashboard {
     margin-top: 3px;
     color: #fff;
     font-size: 12px;
+  }
+  .content-function img{
+    width: 25px;
+  }
+  .content-function div{
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  .row-10{
+    margin-top: 10px;
+  }
+  .line-10{
+    width: 100%;
+    height: 10px;
+    background-color: #f5f5f5;
+  }
+  .alert{
+    width: 100%;
+    padding: 6px 1% 0 1%;
+  }
+  .alert-img{
+    width: 70px;
+  }
+  .alert-left{
+    float: left;
+    width: 23%;
+  }
+  .square-black{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+    float: left;
+    margin: 6px 5px 0 0;
+  }
+  .alert-info{
+    float: left;
+    font-size:13px;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .alert-time{
+    float: left;
+    margin-left: 3%;
+    font-size: 13px;
+  }
+  .alert-center{
+    float: left;
+    margin-top: 13px;
+    width: 63%;
+  }
+  .alert-right{
+    float: left;
+  }
+  .alert-square-red{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 26px 0 24px 13px;
+  }
+  .alert-go{
+    width:15px;
+    margin: 23px 1px 21px -5px;
+    display: inline-block;
   }
 }
