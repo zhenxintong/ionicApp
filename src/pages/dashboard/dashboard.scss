@@ -1,0 +1,83 @@
+page-dashboard {
+  .fontSize{
+    font-size: 14px;
+    font-family: 'microsoft yahei', Verdana, Arial, Helvetica, sans-serif;
+  }
+  .header{
+    background-color: #0bb0f6;
+    padding: 15px 4% 3px 4%;
+    width: 100%;
+  }
+  .header .search{
+    width:13px;
+    position: absolute;
+    left:23px;
+    top:21px;
+    z-index:100;
+  }
+  .header .mike{
+    width:16px;
+    position: absolute;
+    left:69%;
+    top:18px;
+  }
+  .header-input{
+    background-color: #0aa2e2;
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 26px;
+    width: 95%;
+  }
+  .text-input-ios{
+    margin: 0!important;
+  }
+  .text-input-md{
+    margin: 0!important;
+  }
+  .text-input::-moz-placeholder {
+    color: #fff;
+  }
+  .text-input:-ms-input-placeholder {
+    color: #fff;
+  }
+  .text-input::-webkit-input-placeholder {
+    color: #fff;
+  }
+  .header-left{
+    float: left;
+    width: 82%;
+  }
+  .header-right{
+    float: left;
+  }
+  .addressBook{
+    width: 22px;
+  }
+  .square{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    margin-left: 23px;
+    top: 15px;
+  }
+  .add{
+    width: 21px;
+    margin: 0 0 1px 5px;
+  }
+  .clear{
+    clear: both;
+  }
+  .header-function{
+    margin-top: 10px;
+  }
+  .header-function img{
+    width: 25px;
+  }
+  .header-function div{
+    margin-top: 3px;
+    color: #fff;
+    font-size: 12px;
+  }
+}
