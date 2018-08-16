@@ -123,4 +123,15 @@
     <div class="clear"></div>
   </div>
   <div class="line-10"></div>
+  <ion-slides class="banner" [autoplay]="4000" [loop]="true" [pager]="true" effect="flip" [speed]="1000" [parallax]="true">
+    <ion-slide *ngFor="let banner of bannerList">
+      <img class="banner" src="{{banner.src}}"/>
+    </ion-slide>
+  </ion-slides>
+  <div class="line-10"></div>
+  <div>
+    <div style="height: 12px;width: 4px;background-color: #2c93d8;display: inline-block;margin-top: 2px;"></div>
+    <div style="display: inline-block;">惠支付</div>
+  </div>
+
 </ion-content>
