@@ -90,9 +90,7 @@
   </ion-grid>
   <div class="line-10"></div>
   <div class="alert">
-    <div class="alert-left">
-      <img class="alert-img" src="assets/imgs/alert.png">
-    </div>
+    <img class="alert-img" src="assets/imgs/alert.png">
     <div class="alert-center">
       <div>
         <div class="square-black"></div>
@@ -105,7 +103,7 @@
         <div class="clear"></div>
       </div>
 
-      <div style="margin-top: 5px;">
+      <div class="margin-top-5">
         <div class="square-black"></div>
         <div class="alert-info">
           余额宝收益到账啦
@@ -129,9 +127,85 @@
     </ion-slide>
   </ion-slides>
   <div class="line-10"></div>
-  <div>
-    <div style="height: 12px;width: 4px;background-color: #2c93d8;display: inline-block;margin-top: 2px;"></div>
-    <div style="display: inline-block;">惠支付</div>
+  <div class="payment-header">
+    <div class="line-blue"></div>
+    <span>惠支付</span>
   </div>
-
+  <ion-grid class="payment-content">
+      <ion-row>
+      <ion-col text-center col-6 class="payment-content-packet">
+        <div class="payment-content-font">
+          <div class="payment-content-font-top">瓜分现金红包</div>
+          <div class="payment-content-font-bottom">每天最高领88元</div>
+        </div>
+        <img class="payment-content-img" src="assets/imgs/cash-rewards.png">
+        <div class="clear"></div>
+      </ion-col>
+      <ion-col text-center col-6 class="payment-content-cash">
+        <div class="payment-content-font">
+          <div class="payment-content-font-top">赚钱红包升级</div>
+          <div class="payment-content-font-bottom">10元赏金到手</div>
+        </div>
+        <img class="payment-content-img" src="assets/imgs/red-packet.png">
+        <div class="clear"></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="line-10"></div>
+  <div class="day-header">
+    <div class="day-header-left">
+      <div class="line-blue"></div>
+      <span>每日必抢</span>
+    </div>
+    <div class="day-header-right">
+      <img src="assets/imgs/red-package.png" style="">
+      <span>用红包购物低至0.1元</span>
+    </div>
+  </div>
+  <ion-grid>
+    <ion-row class="goods-row">
+      <ion-col text-center col-4>
+        <img class="goods-img" src="assets/imgs/goods1.png">
+        <div class="goods-title">用红包购物</div>
+        <div class="goods-content">10元红包待使用</div>
+      </ion-col>
+      <ion-col text-center col-4>
+        <img class="goods-img" src="assets/imgs/goods2.png">
+        <div class="goods-title">领奖励红包</div>
+        <div class="goods-content">首次购物有机会得</div>
+      </ion-col>
+      <ion-col text-center col-4>
+        <img class="goods-img" src="assets/imgs/goods3.png">
+        <div class="goods-title">砸蛋抢红包</div>
+        <div class="goods-content">大额红包加码中</div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="goods-row">
+      <ion-col text-center col-4>
+        <img class="goods-img" src="assets/imgs/goods4.png">
+        <div class="goods-title">鹏硕路亚竿新</div>
+        <div class="goods-content">红包价<span>8.9元</span></div>
+      </ion-col>
+      <ion-col text-center col-4>
+        <img class="goods-img" src="assets/imgs/goods5.png">
+        <div class="goods-title">嘉奇园艺场</div>
+        <div class="goods-content">红包价<span>3.8元</span></div>
+      </ion-col>
+      <ion-col text-center col-4>
+        <img class="goods-img" src="assets/imgs/goods6.png">
+        <div class="goods-title">儿童智能定位</div>
+        <div class="goods-content">红包价<span>28元</span></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="more-goods">
+    <span>更多精选商品</span>
+    <img src="assets/imgs/go.png">
+    <div class="clear"></div>
+  </div>
+  <div class="bottom-line">
+    <div></div>
+    <span>我是有底线的</span>
+    <div></div>
+  </div>
 </ion-content>

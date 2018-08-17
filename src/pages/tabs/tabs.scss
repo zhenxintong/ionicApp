@@ -15,7 +15,8 @@ tabs{
     color: #0bb0f6;
   }
   .tabs-ios .tabbar {
-    border-top: none;
+    border-top: 0;
+    background-color: #f9fdff;
   }
   .tabs-ios .tab-button-icon{
     height:28px;
