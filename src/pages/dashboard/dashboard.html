@@ -1,4 +1,8 @@
 <ion-content class="fontSize">
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content pullingIcon="arrow-dropdown" pullingText="松开刷新" refreshingSpinner="circles">
+    </ion-refresher-content>
+  </ion-refresher>
   <div class="header">
     <div class="header-left">
       <img class="search" src="assets/imgs/search.png">
@@ -121,7 +125,8 @@
     <div class="clear"></div>
   </div>
   <div class="line-10"></div>
-  <ion-slides class="banner" [autoplay]="4000" [loop]="true" [pager]="true" effect="flip" [speed]="1000" [parallax]="true">
+  <ion-slides class="banner" [autoplay]="4000" [loop]="true" [pager]="true" effect="flip" [speed]="1000"
+              [parallax]="true">
     <ion-slide *ngFor="let banner of bannerList">
       <img class="banner" src="{{banner.src}}"/>
     </ion-slide>
@@ -132,7 +137,7 @@
     <span>惠支付</span>
   </div>
   <ion-grid class="payment-content">
-      <ion-row>
+    <ion-row>
       <ion-col text-center col-6 class="payment-content-packet">
         <div class="payment-content-font">
           <div class="payment-content-font-top">瓜分现金红包</div>

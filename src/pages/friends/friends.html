@@ -1,10 +1,59 @@
 <ion-header>
   <ion-navbar color="headerTabsBgColor">
-    <ion-title>朋友</ion-title>
+    <div class="friend-header">
+      <div class="header-title">朋友</div>
+      <img class="header-add" src="assets/imgs/add.png">
+      <img class="header-address-book" src="assets/imgs/address-book.png">
+      <div class="header-square"></div>
+      <img class="header-search" src="assets/imgs/search.png">
+      <div class="clear"></div>
+    </div>
   </ion-navbar>
 </ion-header>
 
-
-<ion-content padding>
-
+<ion-content class="fontSize">
+  <ion-grid class="con-grid">
+    <ion-row>
+      <ion-col class="con-col" text-center col-4>
+        <img src="assets/imgs/life-no.png">
+        <div class="grid-img-square">2</div>
+        <div class="col-title">生活号</div>
+        <div class="col-con">简单生活更多优惠</div>
+      </ion-col>
+      <ion-col class="con-col" text-center col-4>
+        <img src="assets/imgs/small-pro.png">
+        <div class="grid-img-square">1</div>
+        <div class="col-title">小程序</div>
+        <div class="col-con">发现更多精品服务</div>
+      </ion-col>
+      <ion-col text-center col-4>
+        <img src="assets/imgs/life-circle.png">
+        <div class="grid-img-square">1</div>
+        <div class="col-title">生活圈</div>
+        <div class="col-con">和朋友分享生活</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="line-10"></div>
+  <div *ngFor="let item of friendsList">
+    <div class="friend-con">
+      <img [src]="item.src"/>
+      <div *ngIf="item.square" class="img-square"></div>
+      <div class="friend-con-right">
+        <div>
+          <div class="friend-con-title">
+            {{item.title}}
+          </div>
+          <div class="friend-con-date">
+            {{item.date}}
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="friend-con-con">
+          {{item.content}}
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
 </ion-content>

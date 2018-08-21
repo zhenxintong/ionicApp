@@ -26,5 +26,9 @@ export class DashboardPage {
     this.bannerList.push({src:"assets/imgs/banner3.png"});
     this.bannerList.push({src:"assets/imgs/banner4.png"});
   }
-
+  doRefresh(refresher) {
+    setTimeout(() => {
+      refresher.complete();
+    }, 2000);
+  }
 }
