@@ -3,7 +3,10 @@ page-mine {
     font-size: 14px;
     font-family: "微软雅黑";
   }
-  .clear{
+  .header-ios .toolbar-ios:last-child .toolbar-background-ios {
+    border: 0;
+  }
+  .clear {
     clear: both;
   }
   .mine-header {
@@ -15,101 +18,108 @@ page-mine {
   .header-title {
     float: left;
   }
-  .header-set{
+  .header-set {
     float: right;
   }
-  .header-con{
+  .con-header {
+    background-color: #1c82d4;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 5px;
     width: 100%;
-    padding: 20px 0;
   }
-  .con-chat-head{
+  .header-con {
+    width: 100%;
+    padding: 0 5px 15px 10px;
+  }
+  .con-chat-head {
     width: 70px;
     float: left;
     border: 2px solid #6ab2ff;
     border-radius: 5px;
   }
-  .con-chat-icon{
+  .con-chat-icon {
     width: 20px;
     position: relative;
     top: 50px;
     right: 11px;
     float: left;
   }
-  .con-center{
+  .con-center {
     float: left;
     padding: 10px 0;
     margin-left: -5px;
   }
-  .con-center-name{
+  .con-center-name {
     opacity: 0.6;
     font-size: 13px;
     margin-left: 10px;
   }
-  .con-center div{
+  .con-center div {
     opacity: 0.6;
     font-size: 13px;
     margin-top: 10px;
   }
-  .con-go-white{
+  .con-go-white {
     width: 20px;
     float: right;
     padding: 20px 0
   }
-  .subtitle{
+  .subtitle {
     width: 100%;
     margin-left: 4%;
     border-bottom: 1px solid #eee;
   }
-  .subtitle div{
-    padding:15px 0;
+  .subtitle div {
+    padding: 15px 0;
     width: 89%;
-    color:#f29f3f;
+    color: #f29f3f;
     font-size: 12px;
     display: inline-block;
   }
-  .subtitle img{
+  .subtitle img {
     width: 15px;
     position: relative;
     top: 2px;
   }
-  .list{
+  .list {
     width: 100%;
   }
-  .list-img{
+  .list-img {
     width: 8%;
     margin: 10px 3% 10px 4%;
     float: left;
   }
-  .list-con-noborder{
+  .list-con-noborder {
     width: 85%;
     float: right;
   }
-  .list-con{
+  .list-con {
     width: 85%;
     float: right;
     border-bottom: 1px solid #f5f5f5;
   }
-  .con-95{
+  .con-95 {
     width: 93%;
     padding: 15px 0;
     float: left;
   }
-  .list-con img{
+  .list-con img {
     width: 15px;
     float: left;
     padding: 17px 0;
   }
-  .list-con-noborder img{
+  .list-con-noborder img {
     width: 15px;
     float: left;
     padding: 17px 0;
   }
-  .con-95-left{
+  .con-95-left {
     display: inline-block;
     width: 48%;
     text-align: left;
   }
-  .con-95-right{
+  .con-95-right {
     display: inline-block;
     width: 48%;
     text-align: right;
@@ -117,14 +127,14 @@ page-mine {
     color: #989898;
     opacity: 0.6;
   }
-  .con-95-right-green{
+  .con-95-right-green {
     display: inline-block;
     width: 48%;
     text-align: right;
     font-size: 13px;
     color: #62a291;
   }
-  .line-10{
+  .line-10 {
     height: 10px;
     background-color: #f5f5f5;
     width: 100%;
