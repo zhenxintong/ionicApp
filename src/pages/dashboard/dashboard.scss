@@ -115,7 +115,7 @@ page-dashboard {
   .alert-info{
     float: left;
     font-size:13px;
-    width: 60%;
+    width: 70%;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -124,8 +124,7 @@ page-dashboard {
   }
   .alert-time{
     color: #d4d4d4;
-    float: left;
-    margin-left: 3%;
+    float: right;
     font-size: 13px;
   }
   .margin-top-5{
@@ -134,7 +133,7 @@ page-dashboard {
   .alert-center{
     float: left;
     padding: 16px 0;
-    width: 63%;
+    width: 69%;
   }
   .alert-right{
     float: right;
@@ -145,7 +144,7 @@ page-dashboard {
     border-radius: 50%;
     background-color: red;
     display: inline-block;
-    margin: 26px 0 24px 20px;
+    margin: 26px 0 24px 0;
   }
   .alert-go{
     width:15px;
