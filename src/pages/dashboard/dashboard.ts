@@ -23,7 +23,6 @@ export class DashboardPage {
     this.searchContent = "蚂蚁森林";
     this.bannerList.push({src:"assets/imgs/banner1.png"});
     this.bannerList.push({src:"assets/imgs/banner2.png"});
-    this.bannerList.push({src:"assets/imgs/banner3.png"});
     this.bannerList.push({src:"assets/imgs/banner4.png"});
   }
   doRefresh(refresher) {
